@@ -1,1 +1,0 @@
-cmd_/home/galileoluna/Drivers/ex01_simple_module.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/galileoluna/Drivers/ex01_simple_module.ko /home/galileoluna/Drivers/ex01_simple_module.o /home/galileoluna/Drivers/ex01_simple_module.mod.o

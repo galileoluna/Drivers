@@ -1,1 +1,0 @@
-cmd_/home/galileoluna/Drivers/miModulo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/galileoluna/Drivers/miModulo.ko /home/galileoluna/Drivers/miModulo.o /home/galileoluna/Drivers/miModulo.mod.o
