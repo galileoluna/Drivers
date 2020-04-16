@@ -67,6 +67,7 @@ static ssize_t device_read (struct file *filp, char *buff, size_t len, loff_t *o
 
 static ssize_t device_write (struct file *filp,const char *buff, size_t len, loff_t *off) {
 
+
   short ind = len - 1;
   short count = 0; 
   memset(msg, 0, 100);
